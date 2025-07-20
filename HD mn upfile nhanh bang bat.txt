@@ -1,0 +1,5 @@
+- tải về cái github_up_loader.bat
+- edit bằng notepad
+- thay đường dẫn bằng đường dẫn mà bạn đang sử dụng để up lên clb hit
+- mỗi tuần hoàn thành code r 1 bấm là code tự lên :3
+- Cảm ơn mn đã đọc. 09:36 20_7_2025 Conmeosoma
