@@ -11,9 +11,9 @@ package tuan4_baitaptrenlop;
 public class Bai3 {
     public static void main(String[] args) {
         // k tham so
-//        Car car1 = new Car();
-//        car1.nhapXe();
-//        car1.run();
+        Car car1 = new Car();
+        car1.nhapXe();
+        car1.run();
         // co tham so
         Car car2 = new Car("MEC",300);
         car2.run();
