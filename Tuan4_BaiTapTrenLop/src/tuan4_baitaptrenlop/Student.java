@@ -3,8 +3,9 @@ package tuan4_baitaptrenlop;
 import java.util.Scanner;
 
 public class Student {
+
     Scanner sc = new Scanner(System.in);
-    
+
     private String name;
     private int age;
 
@@ -12,8 +13,9 @@ public class Student {
         this.name = name;
         this.age = age;
     }
-    public Student(){
-        
+
+    public Student() {
+
     }
 
     public void sayHello() {
@@ -43,13 +45,11 @@ public class Student {
         age = sc.nextInt();
 
     }
-  
 
     //  @Override
 //    public String toString() {
 //        return "
 //    }
-
     @Override
     public String toString() {
         return "Student{" + ", name=" + name + ", age=" + age + '}';

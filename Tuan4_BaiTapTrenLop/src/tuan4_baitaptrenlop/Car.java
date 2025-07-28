@@ -12,6 +12,7 @@ import java.util.Scanner;
  */
 public class Car {
 
+    static final int gioiHanspeed = 90;
     Scanner sc = new Scanner(System.in);
     public String brand;
     public int maxSpeed;
@@ -53,8 +54,17 @@ public class Car {
     public void nhapXe() {
         System.out.println("Nhap hang xe: ");
         brand = sc.nextLine();
-        System.out.println("Nhap toc do toi da: ");
+        System.out.println("Nhap toc do: ");
         maxSpeed = sc.nextInt();
+    }
+
+    public void checktodoc() {
+        if (maxSpeed < gioiHanspeed) {
+            System.out.println("Toc do binh thuong");
+        } else {
+            System.out.println("Qua toc do !!!");
+        }
+
     }
 
 }
