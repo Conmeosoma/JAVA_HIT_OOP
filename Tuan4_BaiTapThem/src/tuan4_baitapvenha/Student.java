@@ -19,6 +19,10 @@ public class Student {
         this.soTietNghi = soTietNghi;
     }
 
+    public Student() {
+
+    }
+
     public String getTen() {
         return Ten;
     }
