@@ -1,12 +1,14 @@
 package tx1_ca2_de1;
+
 public class KhachHang {
-    private int maKhachHang;
+
+    private String maKhachHang;
     private String ten;
     private DiaChi diachi;
-    private int soDienThoai;
+    private String soDienThoai;
     private int soTienMua;
 
-    public KhachHang(int maKhachHang, String ten, DiaChi diachi, int soDienThoai, int soTienMua) {
+    public KhachHang(String maKhachHang, String ten, DiaChi diaChi, String soDienThoai, int soTienMua) {
         this.maKhachHang = maKhachHang;
         this.ten = ten;
         this.diachi = diachi;
@@ -14,11 +16,15 @@ public class KhachHang {
         this.soTienMua = soTienMua;
     }
 
-    public int getMaKhachHang() {
+    public KhachHang() {
+
+    }
+
+    public String getMaKhachHang() {
         return maKhachHang;
     }
 
-    public void setMaKhachHang(int maKhachHang) {
+    public void setMaKhachHang(String maKhachHang) {
         this.maKhachHang = maKhachHang;
     }
 
@@ -38,11 +44,11 @@ public class KhachHang {
         this.diachi = diachi;
     }
 
-    public int getSoDienThoai() {
+    public String getSoDienThoai() {
         return soDienThoai;
     }
 
-    public void setSoDienThoai(int soDienThoai) {
+    public void setSoDienThoai(String soDienThoai) {
         this.soDienThoai = soDienThoai;
     }
 
@@ -53,7 +59,15 @@ public class KhachHang {
     public void setSoTienMua(int soTienMua) {
         this.soTienMua = soTienMua;
     }
-    
-    
-    
+
+    @Override
+    public String toString() {
+        return String.format("| %-10s | %-20s | %-20s | %-12s | %-10d |",
+                maKhachHang,
+                ten,
+                diachi,
+                soDienThoai,
+                soTienMua);
+    }
+
 }

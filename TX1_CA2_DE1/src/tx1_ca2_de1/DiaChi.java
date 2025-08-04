@@ -2,7 +2,6 @@ package tx1_ca2_de1;
 public class DiaChi {
     private int soNha;
     private String tenDuong;
-
     public DiaChi(int soNha, String tenDuong) {
         this.soNha = soNha;
         this.tenDuong = tenDuong;
