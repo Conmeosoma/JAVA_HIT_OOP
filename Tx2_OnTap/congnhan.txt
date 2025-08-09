@@ -1,5 +1,0 @@
-Ma Cong Nhan  Ten Cn            Ca lam viec   Gio lam
-002        Nguyen Van B         CA2             41   
-003        Nguyen Van C         CA2             42   
-004        Nguyen Van D         CA3             43   
-005        Nguyen Van E         CA3             44   
