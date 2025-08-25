@@ -5,10 +5,17 @@
 
 package Nai2;
 
+public class FoodProduct extends Product {
+    public FoodProduct() {
+    }
 
+    public FoodProduct(String id, String name, double price, int quantity, String category, Manufacturer manufacturer) {
+        super(id, name, price, quantity, category, manufacturer);
+    }
 
-
-
-public class FoodProduct {
+    @Override
+    public double getDiscountPrice() {
+        return getPrice() * 0.05;
+    }
 
 }

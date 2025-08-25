@@ -5,10 +5,18 @@
 
 package Nai2;
 
+public class ClothingProduct extends Product {
+    public ClothingProduct() {
+    }
 
+    public ClothingProduct(String id, String name, double price, int quantity, String category,
+            Manufacturer manufacturer) {
+        super(id, name, price, quantity, category, manufacturer);
+    }
 
-
-
-public class ClothingProduct {
+    @Override
+    public double getDiscountPrice() {
+        return getPrice() * 0.2;
+    }
 
 }
