@@ -72,13 +72,13 @@ public class ProductServiceImpl implements ProductService {
     public void demo() {
         ds.add(new ClothingProduct("C01", "Ao thun", 150.0, 50, "Clothing",
                 new Manufacturer("M01", "Nike", "Ha noi", "123@gmail.com")));
-        ds.add(new ElectronicProduct("C012", "Ao thun1", 1510.0, 510, "Clo313thing",
+        ds.add(new ElectronicProduct("C012", "DAy dien", 1510.0, 510, "Clo313thing",
                 new Manufacturer("M021", "N23ike", "Ha n3oi", "123@342gmail.com")));
-        ds.add(new ElectronicProduct("C013", "Ao thun2", 1520.0, 520, "Clo13thing",
+        ds.add(new ElectronicProduct("C013", "On dien", 1520.0, 520, "Clo13thing",
                 new Manufacturer("M301", "Ni4ke", "Ha n33oi", "123@2432gmail.com")));
         ds.add(new ClothingProduct("C014", "Ao thun3", 1530.0, 530, "Clo12thing",
                 new Manufacturer("M031", "Nrwike", "Ha nreoi", "1243@23gmail.com")));
-        ds.add(new FoodProduct("C015", "Ao thun4", 1540.0, 504, "Cl12othing",
+        ds.add(new FoodProduct("C015", "Con ga", 1540.0, 504, "Cl12othing",
                 new Manufacturer("M041", "Nirewke", "Ha n42oi", "123@grwermail.com")));
         ds.add(new ClothingProduct("C016", "Ao thun5", 1550.0, 540, "Clo12thing",
                 new Manufacturer("M051", "Nerwike", "Ha nrwoi", "123@rgmail.com")));
